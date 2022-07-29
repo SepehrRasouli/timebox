@@ -11,7 +11,7 @@ parser.add_argument(
 )
 parser.add_argument(
     "-a","--add",help="""Adds a new entry.
-    Usage: task_details,starts_at,interval. starts_at should be in %H:%M format.""",nargs=3
+    Usage: task_details,starts_at,interval. starts_at should be in H:M format.""",nargs=3
 )
 parser.add_argument(
     "-d","--delete",help="""Remove an entry.
