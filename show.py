@@ -23,12 +23,12 @@ class Show:
     @staticmethod
     def show(data):
         data = sorted(data,key=lambda x:x[1])
-        for entry in data:
+        for entry,index in enumerate(data):
             end_time = calculate_end_time(entry)
             print(
                 Panel(
                     f"[bold green]{entry[0]}",
-                    title=f"[bold red]{entry[1]}",
+                    title=f"[bold red]{entry[1]} | [bold cyan]Task Number:{index}",
                     subtitle=f"[bold blue]{end_time.hour}:{end_time.minute} | {entry[2]}"
                 ),"\n"
             )
