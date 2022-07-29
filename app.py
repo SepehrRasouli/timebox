@@ -27,7 +27,7 @@ if args.create:
     database_manager.create_database()
 
 if args.add:
-   data = database_manager.read_data_from_database()
+    data = database_manager.read_data_from_database()
     data.append(args.add)
     database_manager.dump_data_to_database(data)
 
