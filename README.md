@@ -5,7 +5,9 @@
   * Minimalistic,
   * Simple to use, 
   * And Fast !
+
 ![Picture1](https://github.com/SepehrRasouli/timebox/blob/main/pictures/1.png)
+
 ## Installation :
   * Use pipenv :
       ```shell
