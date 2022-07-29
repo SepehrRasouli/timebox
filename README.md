@@ -2,7 +2,7 @@
 * timebox is a FOSS timeboxing app, written in Python !.
 * Features : 
   * Uses rich to print beautiful boxes,
-  * Minimalistic,
+  * Minimalist,
   * Simple to use, 
   * And Fast !
 
