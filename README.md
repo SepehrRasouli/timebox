@@ -15,5 +15,9 @@
       pip install -r requierments.txt
       python ./app.py <args>
 ## How to use :
-  * Use `-h` flag to get help page. 
+  ```shell
+    python ./app.py -a <task_details> <starts_at>:%H:%M <duration>(in minutes)
+    python ./app.py -d <task_num>
+    python ./app.py -s
+  ```
   
