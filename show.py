@@ -25,8 +25,8 @@ class Show:
             print(
                 Panel(
                     f"[bold green]{entry[0]}",
-                    title=f"[italic red]{entry[1]} | Task Number : {index}",
-                    subtitle=f"[italic blue]{end_time.hour}:{end_time.minute} | {entry[2]} Minutes"
+                    title=f"[italic blue]{entry[1]} | Task Number : {index}",
+                    subtitle=f"[italic red]{end_time.hour}:{end_time.minute} | {entry[2]} Minutes"
                 ),"\n"
             )
 
