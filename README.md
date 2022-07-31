@@ -1,4 +1,4 @@
-### timebox ![Version](https://img.shields.io/badge/version-0.1.0-blue) !(License)[https://img.shields.io/badge/license-MIT-green]
+### timebox ![Version](https://img.shields.io/badge/version-0.1.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 * timebox is a FOSS timeboxing app, written in Python !.
 * Features : 
   * Uses rich to print beautiful boxes,
